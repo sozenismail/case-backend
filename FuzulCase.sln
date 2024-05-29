@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{149F86AA-AD13-4A63-A1BF-ED3C7C5FC896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AFC765B8-08EA-4E40-BC9D-B0283B4015F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7ECFFDA6-3C08-4D5F-BB62-9A9659B285C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzulCase.Application", "Core\FuzulCase.Application\FuzulCase.Application.csproj", "{E4AE540D-0182-494B-ACE7-206697B3122E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzulCase.Domain", "Core\FuzulCase.Domain\FuzulCase.Domain.csproj", "{42278ED9-1E9B-4464-91DD-D543FCFDD7AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzulCase.Infrastructure", "Infrastructure\FuzulCase.Infrastructure\FuzulCase.Infrastructure.csproj", "{5B1F0228-0369-47A7-B765-133D38F298E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzulCase.Persistence", "Infrastructure\FuzulCase.Persistence\FuzulCase.Persistence.csproj", "{3C9B9F4B-ACE2-4293-A673-F0EB5239A968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuzulCase.APIs", "Presentation\FuzulCase.APIs\FuzulCase.APIs.csproj", "{77150103-994B-42CA-B527-C6EBA2205202}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4AE540D-0182-494B-ACE7-206697B3122E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AE540D-0182-494B-ACE7-206697B3122E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AE540D-0182-494B-ACE7-206697B3122E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AE540D-0182-494B-ACE7-206697B3122E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42278ED9-1E9B-4464-91DD-D543FCFDD7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42278ED9-1E9B-4464-91DD-D543FCFDD7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42278ED9-1E9B-4464-91DD-D543FCFDD7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42278ED9-1E9B-4464-91DD-D543FCFDD7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B1F0228-0369-47A7-B765-133D38F298E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B1F0228-0369-47A7-B765-133D38F298E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B1F0228-0369-47A7-B765-133D38F298E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B1F0228-0369-47A7-B765-133D38F298E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C9B9F4B-ACE2-4293-A673-F0EB5239A968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C9B9F4B-ACE2-4293-A673-F0EB5239A968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C9B9F4B-ACE2-4293-A673-F0EB5239A968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C9B9F4B-ACE2-4293-A673-F0EB5239A968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77150103-994B-42CA-B527-C6EBA2205202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77150103-994B-42CA-B527-C6EBA2205202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77150103-994B-42CA-B527-C6EBA2205202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77150103-994B-42CA-B527-C6EBA2205202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4AE540D-0182-494B-ACE7-206697B3122E} = {149F86AA-AD13-4A63-A1BF-ED3C7C5FC896}
+		{42278ED9-1E9B-4464-91DD-D543FCFDD7AE} = {149F86AA-AD13-4A63-A1BF-ED3C7C5FC896}
+		{5B1F0228-0369-47A7-B765-133D38F298E5} = {AFC765B8-08EA-4E40-BC9D-B0283B4015F5}
+		{3C9B9F4B-ACE2-4293-A673-F0EB5239A968} = {AFC765B8-08EA-4E40-BC9D-B0283B4015F5}
+		{77150103-994B-42CA-B527-C6EBA2205202} = {7ECFFDA6-3C08-4D5F-BB62-9A9659B285C9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A1150B-6D71-40C0-B085-59164920C6EA}
+	EndGlobalSection
+EndGlobal
